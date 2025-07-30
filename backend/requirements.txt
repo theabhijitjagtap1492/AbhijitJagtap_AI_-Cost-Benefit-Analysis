@@ -1,0 +1,72 @@
+# AI Cost-Benefit Analysis - Backend Dependencies
+# 
+# This file contains all Python dependencies required for the backend application.
+# Each package serves a specific purpose in the AI/ML pipeline and API development.
+#
+# Installation: pip install -r requirements.txt
+# Version: 1.0.0
+
+# =============================================================================
+# CORE DATA SCIENCE LIBRARIES
+# =============================================================================
+
+# pandas: Data manipulation and analysis
+# Used for: Loading CSV datasets, data preprocessing, DataFrame operations
+pandas>=1.5.0
+
+# numpy: Numerical computing
+# Used for: Mathematical operations, array manipulations, ML calculations
+numpy>=1.21.0
+
+# =============================================================================
+# MACHINE LEARNING LIBRARIES
+# =============================================================================
+
+# scikit-learn: Machine learning library
+# Used for: Feature preprocessing, pipeline construction, model evaluation
+# Components: StandardScaler, OneHotEncoder, Pipeline, train_test_split
+scikit-learn>=1.1.0
+
+# xgboost: Gradient boosting framework
+# Used for: Main ML model (XGBRegressor) for project scoring
+# Provides: High-performance gradient boosting for regression tasks
+xgboost>=1.7.0
+
+# =============================================================================
+# WEB FRAMEWORK AND API DEVELOPMENT
+# =============================================================================
+
+# fastapi: Modern Python web framework
+# Used for: RESTful API development, automatic documentation, data validation
+# Features: Pydantic models, automatic OpenAPI docs, async support
+fastapi>=0.95.0
+
+# uvicorn: ASGI server for FastAPI
+# Used for: Running the FastAPI application in development and production
+# Provides: High-performance ASGI server with WebSocket support
+uvicorn>=0.20.0
+
+# =============================================================================
+# UTILITY LIBRARIES
+# =============================================================================
+
+# python-multipart: File upload support
+# Used for: Handling multipart form data in FastAPI
+# Required for: File uploads and form data processing
+python-multipart>=0.0.6
+
+# =============================================================================
+# DEVELOPMENT AND TESTING (Optional)
+# =============================================================================
+
+# pytest: Testing framework (optional for development)
+# Used for: Unit testing, integration testing
+# pytest>=7.0.0
+
+# black: Code formatting (optional for development)
+# Used for: Consistent code formatting
+# black>=22.0.0
+
+# flake8: Linting (optional for development)
+# Used for: Code quality checks
+# flake8>=5.0.0
