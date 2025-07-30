@@ -1,0 +1,133 @@
+# AI Cost-Benefit Analysis - Frontend Dependencies
+# 
+# This file contains all Node.js dependencies required for the frontend application.
+# Each package serves a specific purpose in the React UI development.
+#
+# Installation: npm install
+# Version: 1.0.0
+
+# =============================================================================
+# CORE REACT LIBRARIES
+# =============================================================================
+
+# react: JavaScript library for building user interfaces
+# Used for: Component-based UI development, state management
+# Version: ^19.1.1
+react>=19.1.1
+
+# react-dom: React rendering for web
+# Used for: DOM rendering, React hooks, component lifecycle
+# Version: ^19.1.1
+react-dom>=19.1.1
+
+# react-scripts: Create React App scripts
+# Used for: Development server, build process, testing
+# Version: 5.0.1
+react-scripts>=5.0.1
+
+# =============================================================================
+# TYPE SAFETY
+# =============================================================================
+
+# @types/react: TypeScript definitions for React
+# Used for: Type safety in React components
+# Version: ^19.1.9
+@types/react>=19.1.9
+
+# @types/react-dom: TypeScript definitions for React DOM
+# Used for: Type safety in React DOM operations
+# Version: ^19.1.7
+@types/react-dom>=19.1.7
+
+# =============================================================================
+# HTTP CLIENT
+# =============================================================================
+
+# axios: Promise-based HTTP client
+# Used for: API communication with backend
+# Version: ^1.11.0
+axios>=1.11.0
+
+# =============================================================================
+# STYLING AND CSS
+# =============================================================================
+
+# tailwindcss: Utility-first CSS framework
+# Used for: Responsive design, utility classes, custom styling
+# Version: ^3.4.17
+tailwindcss>=3.4.17
+
+# autoprefixer: PostCSS plugin for vendor prefixes
+# Used for: CSS vendor prefixing, browser compatibility
+# Version: ^10.4.21
+autoprefixer>=10.4.21
+
+# postcss: CSS transformation tool
+# Used for: CSS processing, Tailwind CSS integration
+# Version: ^8.5.6
+postcss>=8.5.6
+
+# =============================================================================
+# TEMPLATE AND DEVELOPMENT
+# =============================================================================
+
+# cra-template-typescript: TypeScript template for Create React App
+# Used for: TypeScript project setup
+# Version: 1.3.0
+cra-template-typescript>=1.3.0
+
+# =============================================================================
+# CHART VISUALIZATION (Optional - Currently using custom SVG)
+# =============================================================================
+
+# recharts: Composable charting library
+# Used for: Data visualization, charts, graphs
+# Note: Currently using custom SVG charts instead
+# Version: ^3.1.0
+# recharts>=3.1.0
+
+# =============================================================================
+# DEVELOPMENT TOOLS (Optional)
+# =============================================================================
+
+# @types/node: TypeScript definitions for Node.js
+# Used for: Type safety in Node.js environment
+# @types/node>=18.0.0
+
+# eslint: JavaScript linting utility
+# Used for: Code quality checks, style enforcement
+# eslint>=8.0.0
+
+# prettier: Code formatter
+# Used for: Consistent code formatting
+# prettier>=2.8.0
+
+# =============================================================================
+# TESTING (Optional)
+# =============================================================================
+
+# @testing-library/react: Testing utilities for React
+# Used for: Component testing, user interaction testing
+# @testing-library/react>=13.0.0
+
+# @testing-library/jest-dom: Custom Jest matchers
+# Used for: DOM testing utilities
+# @testing-library/jest-dom>=5.16.0
+
+# =============================================================================
+# INSTALLATION INSTRUCTIONS
+# =============================================================================
+#
+# To install all dependencies:
+# 1. Navigate to frontend directory: cd frontend
+# 2. Install dependencies: npm install
+# 3. Start development server: npm start
+#
+# To install specific version ranges:
+# npm install react@^19.1.1 react-dom@^19.1.1
+#
+# To update dependencies:
+# npm update
+#
+# To check for outdated packages:
+# npm outdated 
